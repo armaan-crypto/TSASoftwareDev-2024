@@ -11,6 +11,14 @@
 		088AE42E2BD99731003AAFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE42D2BD99731003AAFAE /* ContentView.swift */; };
 		088AE4302BD99733003AAFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088AE42F2BD99733003AAFAE /* Assets.xcassets */; };
 		088AE4332BD99733003AAFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088AE4322BD99733003AAFAE /* Preview Assets.xcassets */; };
+		088AE4412BD99910003AAFAE /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 088AE4402BD99910003AAFAE /* CodeScanner */; };
+		088AE4432BD9E36E003AAFAE /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE4422BD9E36E003AAFAE /* FoodData.swift */; };
+		088AE4452BDB4A63003AAFAE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE4442BDB4A63003AAFAE /* ScannerView.swift */; };
+		088AE4472BDB4B4E003AAFAE /* FoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE4462BDB4B4E003AAFAE /* FoodDetails.swift */; };
+		088AE44A2BDB4E7E003AAFAE /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 088AE4492BDB4E7E003AAFAE /* AlertToast */; };
+		088AE44C2BDBE356003AAFAE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE44B2BDBE356003AAFAE /* Home.swift */; };
+		088AE44E2BDC3B2F003AAFAE /* Allergies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE44D2BDC3B2F003AAFAE /* Allergies.swift */; };
+		088AE4512BDCA9FF003AAFAE /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 088AE4502BDCA9FF003AAFAE /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,11 @@
 		088AE42D2BD99731003AAFAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		088AE42F2BD99733003AAFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088AE4322BD99733003AAFAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		088AE4422BD9E36E003AAFAE /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		088AE4442BDB4A63003AAFAE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		088AE4462BDB4B4E003AAFAE /* FoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetails.swift; sourceTree = "<group>"; };
+		088AE44B2BDBE356003AAFAE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		088AE44D2BDC3B2F003AAFAE /* Allergies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088AE4412BD99910003AAFAE /* CodeScanner in Frameworks */,
+				088AE44A2BDB4E7E003AAFAE /* AlertToast in Frameworks */,
+				088AE4512BDCA9FF003AAFAE /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +71,11 @@
 				088AE42D2BD99731003AAFAE /* ContentView.swift */,
 				088AE42F2BD99733003AAFAE /* Assets.xcassets */,
 				088AE4312BD99733003AAFAE /* Preview Content */,
+				088AE4422BD9E36E003AAFAE /* FoodData.swift */,
+				088AE44B2BDBE356003AAFAE /* Home.swift */,
+				088AE4462BDB4B4E003AAFAE /* FoodDetails.swift */,
+				088AE4442BDB4A63003AAFAE /* ScannerView.swift */,
+				088AE44D2BDC3B2F003AAFAE /* Allergies.swift */,
 			);
 			path = TSASoftwareDev;
 			sourceTree = "<group>";
@@ -83,6 +104,11 @@
 			dependencies = (
 			);
 			name = TSASoftwareDev;
+			packageProductDependencies = (
+				088AE4402BD99910003AAFAE /* CodeScanner */,
+				088AE4492BDB4E7E003AAFAE /* AlertToast */,
+				088AE4502BDCA9FF003AAFAE /* SwiftSoup */,
+			);
 			productName = TSASoftwareDev;
 			productReference = 088AE4282BD99731003AAFAE /* TSASoftwareDev.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,11 @@
 				Base,
 			);
 			mainGroup = 088AE41F2BD99731003AAFAE;
+			packageReferences = (
+				088AE43F2BD99910003AAFAE /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				088AE4482BDB4E7E003AAFAE /* XCRemoteSwiftPackageReference "AlertToast" */,
+				088AE44F2BDCA9FF003AAFAE /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 088AE4292BD99731003AAFAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088AE4432BD9E36E003AAFAE /* FoodData.swift in Sources */,
+				088AE4472BDB4B4E003AAFAE /* FoodDetails.swift in Sources */,
+				088AE4452BDB4A63003AAFAE /* ScannerView.swift in Sources */,
+				088AE44E2BDC3B2F003AAFAE /* Allergies.swift in Sources */,
 				088AE42E2BD99731003AAFAE /* ContentView.swift in Sources */,
+				088AE44C2BDBE356003AAFAE /* Home.swift in Sources */,
 				088AE42C2BD99731003AAFAE /* TSASoftwareDevApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +311,12 @@
 				DEVELOPMENT_TEAM = ZGVKCP72NR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +341,12 @@
 				DEVELOPMENT_TEAM = ZGVKCP72NR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +382,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		088AE43F2BD99910003AAFAE /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		088AE4482BDB4E7E003AAFAE /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		088AE44F2BDCA9FF003AAFAE /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		088AE4402BD99910003AAFAE /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 088AE43F2BD99910003AAFAE /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		088AE4492BDB4E7E003AAFAE /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 088AE4482BDB4E7E003AAFAE /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		088AE4502BDCA9FF003AAFAE /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 088AE44F2BDCA9FF003AAFAE /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 088AE4202BD99731003AAFAE /* Project object */;
 }
